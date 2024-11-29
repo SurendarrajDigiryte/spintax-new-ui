@@ -84,7 +84,7 @@ const duplicate = ref<boolean>(false);
 
   // computed
   const displayResultsCount = computed<string>(() => {
-    return resultsCount.value === 20 ? 'All' : resultsCount.value.toString();
+    return resultsCount.value === '20' ? 'All' : resultsCount.value.toString();
   });
 
   // Methods
